@@ -1,0 +1,24 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,QAAQ,AAAC,CACP,UAAU,CAAE,MAAM,CACnB,AACD,AAAA,KAAK,AAAC,CACJ,UAAU,CAAE,IAAI,CACjB,AAED,AAAA,EAAE,CACF,EAAE,CACF,EAAE,AAAC,CACD,MAAM,CAAE,CAAC,CACV,AAED,AAAA,EAAE,AAAC,CACD,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX,AAED,AAAA,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACV,AAED,AAAA,GAAG,AAAC,CACF,OAAO,CAAE,KAAK,CACd,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,IAAI,CACb,AC1BD,AAAA,UAAU,AAAC,CACT,KAAK,CAAE,IAAI,CACX,OAAO,CAAE,MAAM,CAChB,AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EACjC,AAAA,UAAU,AAAC,CACT,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,MAAM,CACf,CAGH,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EACjC,AAAA,UAAU,AAAC,CACT,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,MAAM,CACf,CAGH,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM,EAClC,AAAA,UAAU,AAAC,CACT,SAAS,CAAE,MAAM,CACjB,OAAO,CAAE,OAAO,CAChB,MAAM,CAAE,MAAM,CACf,CExBH,AAAA,gBAAgB,AAAC,CACf,QAAQ,CAAE,mBAAmB,CAC7B,IAAI,CAAE,qBAAqB,CAC3B,IAAI,CAAE,qBAAqB,CAC3B,OAAO,CAAE,YAAY,CACrB,MAAM,CAAE,YAAY,CACpB,MAAM,CAAE,cAAc,CACtB,KAAK,CAAE,cAAc,CACrB,QAAQ,CAAE,MAAM,CACjB,AGTD,AAAA,KAAK,AAAC,CACJ,WAAW,CAAE,KAAK,CAClB,cAAc,CAAE,KAAK,CACrB,YAAY,CAAE,IAAI,CAClB,aAAa,CAAE,IAAI,CAEnB,gBAAgB,CAAE,gCAAgC,CAClD,iBAAiB,CAAE,SAAS,CAC5B,eAAe,CAAE,KAAK,CACvB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/base/_common.scss",
+        "../sass/base/_container.scss",
+        "../sass/components/_section.scss",
+        "../sass/utils/_visually-hidden.scss",
+        "../sass/components/_first-btn.scss",
+        "../sass/layout/_header.scss",
+        "../sass/layout/_hero.scss",
+        "../sass/layout/_dignity.scss",
+        "../sass/layout/_occupation.scss",
+        "../sass/layout/_team.scss",
+        "../sass/layout/_clients.scss",
+        "../sass/layout/_footer.scss",
+        "../sass/layout/_portfolio.scss",
+        "../sass/components/_backdrop.scss",
+        "../sass/utils/_variables.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
