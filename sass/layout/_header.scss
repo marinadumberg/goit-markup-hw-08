@@ -1,0 +1,137 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px solid #ececec;
+  & .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.address-list {
+  display: flex;
+}
+.header .logo {
+  margin-right: 83px;
+}
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.menu-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.header .address {
+  margin-left: auto;
+}
+.address-list-mail {
+  margin-right: 50px;
+}
+
+.menu-list-link {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+}
+
+.address-mail-link,
+.address-tel-link {
+  font-family: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-mail-link:hover,
+.address-mail-link:focus {
+  color: #2196f3;
+}
+
+.address-tel-link:hover,
+.address-tel-link:focus {
+  color: #2196f3;
+}
+.address-mail-link:hover .envelope-icon,
+.address-mail-link:focus .envelope-icon {
+  fill: #2196f3;
+}
+
+.tel-icon,
+.envelope-icon {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-tel-link:hover .tel-icon,
+.address-tel-link:focus .tel-icon {
+  fill: #2196f3;
+}
+
+.address-mail-link,
+.address-tel-link {
+  display: flex;
+  align-items: center;
+}
+
+.envelope-icon,
+.tel-icon {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.current::after {
+  display: block;
+  content: "";
+  position: absolute;
+  margin-top: 33px;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: rgba(33, 150, 243, 0.9);
+}
+
+.current-portfolio::after {
+  display: block;
+  content: "";
+  position: absolute;
+  margin-top: 33px;
+  width: 78px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: rgba(33, 150, 243, 0.9);
+}
