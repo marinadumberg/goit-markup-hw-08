@@ -28,6 +28,10 @@
     transform: translate(-50%, -50%) scale(0);
     transition: trasform 250ms linear 0ms;
   }
+  @media screen and (max-width: 1199px) {
+    width: 450px;
+    height: 609px;
+  }
 }
 
 .close-button {
@@ -188,5 +192,9 @@
       border: none;
       background-image: url("../images/icon-check.jpg");
     }
+  }
+  @media screen and (max-width: 1200px) {
+    font-size: 12px;
+    line-height: 1.17px;
   }
 }

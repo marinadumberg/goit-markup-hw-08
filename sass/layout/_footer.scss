@@ -1,11 +1,8 @@
 .footer {
   background-color: #2f303a;
-  & .container {
+  /*& .container {
     padding-top: 60px;
-  }
-}
-.footer .container {
-  padding-top: 60px;
+  }*/
 }
 
 .logo-footer {
@@ -13,6 +10,8 @@
 }
 .logo {
   text-decoration: none;
+  margin: 0 auto;
+  margin-top: 60px;
 }
 
 .logo-footer-studio {
@@ -107,18 +106,21 @@
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
+  margin-left: 30px;
+  margin-top: 60px;
 }
 
 .join {
-  margin-left: 70px;
+  /*margin-left: 70px;*/
+  margin-left: 137px;
 }
-.footer-wrapper {
+/*.footer-wrapper {
   display: flex;
-}
+}*/
 
-.sign-wraper {
+/*.sign-wraper {
   display: flex;
-}
+}*/
 
 .sign-us-icon {
   width: 24px;
