@@ -55,8 +55,22 @@ img {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .visually-hidden {
@@ -212,7 +226,6 @@ img {
 }
 
 .current::after {
-  display: block;
   content: "";
   position: absolute;
   margin-top: 33px;
@@ -220,6 +233,12 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: rgba(33, 150, 243, 0.9);
+}
+
+@media screen and (min-width: 768px) {
+  .current::after {
+    display: block;
+  }
 }
 
 .current-portfolio::after {
@@ -233,9 +252,15 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
 }
 
+@media screen and (min-width: 768px) {
+  .current-portfolio::after {
+    display: block;
+  }
+}
+
 .menu-button {
   display: inline-flex;
-  margin: 0;
+  margin: auto;
   padding: 0;
   border: none;
   background: transparent;
@@ -706,9 +731,14 @@ img {
 
 .footer {
   background-color: #2f303a;
-  /*& .container {
-    padding-top: 60px;
-  }*/
+}
+
+.footer .container {
+  padding-top: 60px;
+}
+
+.footer .container {
+  padding-top: 60px;
 }
 
 .logo-footer {
@@ -717,8 +747,6 @@ img {
 
 .logo {
   text-decoration: none;
-  margin: 0 auto;
-  margin-top: 60px;
 }
 
 .logo-footer-studio {
@@ -768,6 +796,12 @@ img {
   margin-bottom: 9px;
 }
 
+@media screen and (max-width: 1199px) {
+  .footer-address-list {
+    text-align: center;
+  }
+}
+
 .social-list-link-footer {
   display: flex;
   justify-content: center;
@@ -815,21 +849,37 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
-  margin-left: 30px;
-  margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .join-us {
+    margin-left: 30px;
+  }
 }
 
 .join {
-  /*margin-left: 70px;*/
-  margin-left: 137px;
+  margin-left: 70px;
 }
 
-/*.footer-wrapper {
-  display: flex;
-}*/
-/*.sign-wraper {
-  display: flex;
-}*/
+@media screen and (min-width: 1200px) {
+  .footer-wrapper {
+    display: flex;
+  }
+  .sign-wraper {
+    display: flex;
+  }
+  .footer-div {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-div {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .sign-us-icon {
   width: 24px;
   height: 24px;
