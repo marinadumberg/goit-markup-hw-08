@@ -13,6 +13,9 @@
 }
 .logo {
   text-decoration: none;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 30px;
+  }
 }
 
 .logo-footer-studio {
@@ -65,6 +68,7 @@
 @media screen and (max-width: 1199px) {
   .footer-address-list {
     text-align: center;
+    margin-bottom: 30px;
   }
 }
 
@@ -87,6 +91,9 @@
 
 .social-list-footer {
   display: flex;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-left: 50px;
+  }
 }
 .social-list-item-footer:not(:last-child) {
   margin-right: 10px;
@@ -115,6 +122,9 @@
   margin-bottom: 20px;
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-left: 30px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-left: 90px;
   }
 }
 
@@ -174,6 +184,10 @@
   margin-top: 31px;
   padding-left: 29px;
   padding-top: 10px;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-left: 140px;
+    margin-bottom: 60px;
+  }
 }
 
 .sign-us-email {
@@ -195,5 +209,8 @@
   color: rgba(255, 255, 255, 0.6);
   &:focus {
     outline: none;
+  }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-left: 60px;
   }
 }

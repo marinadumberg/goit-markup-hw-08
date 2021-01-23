@@ -69,9 +69,9 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .team-list-member {
-    margin-bottom: 30px;
-    width: 450px;
-    height: 622px;
+    margin: 0 auto 30px;
+    width: 100%;
+    max-width: 450px;
   }
   .team-title {
     margin-bottom: 30px;
@@ -85,18 +85,14 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team {
-    margin-left: 30px;
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
   }
 
   .team-list-member {
-    margin-left: -30px;
-    margin-top: -30px;
-    flex-basis: calc(100% / 2-30px);
-    width: 354px;
-    height: 536px;
+    width: 335px;
+    margin: 15px;
   }
 }
 
