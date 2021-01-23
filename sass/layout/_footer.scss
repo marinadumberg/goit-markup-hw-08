@@ -5,7 +5,9 @@
   }
 }
 .footer .container {
-  padding-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: space-between;
 }
 
 .logo-footer {
@@ -15,6 +17,14 @@
   text-decoration: none;
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-nav {
+    .logo {
+      margin: auto;
+    }
   }
 }
 
@@ -80,7 +90,7 @@
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
@@ -92,7 +102,8 @@
 .social-list-footer {
   display: flex;
   @media screen and (min-width: 320px) and (max-width: 767px) {
-    margin-left: 50px;
+    margin-left: 0;
+    justify-content: center;
   }
 }
 .social-list-item-footer:not(:last-child) {
@@ -124,12 +135,36 @@
     margin-left: 30px;
   }
   @media screen and (min-width: 320px) and (max-width: 767px) {
-    margin-left: 90px;
+    margin: 0 auto 30px auto;
+    justify-content: center;
   }
 }
 
 .join {
   margin-left: 70px;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-left: 0;
+  }
+}
+
+.sign {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    justify-content: center;
+    .sign-wrapper {
+      text-align: center;
+    }
+    .sign-us-btm {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.sign {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -154,6 +189,8 @@
 .sign-us-icon {
   width: 24px;
   height: 24px;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 .sign-us-field {
   font-family: $main-font;
@@ -163,7 +200,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-left: 111px;
   margin-top: 10px;
 }
 
@@ -185,8 +221,7 @@
   padding-left: 29px;
   padding-top: 10px;
   @media screen and (min-width: 320px) and (max-width: 767px) {
-    margin-left: 140px;
-    margin-bottom: 60px;
+    margin: 0 auto;
   }
 }
 
@@ -211,6 +246,7 @@
     outline: none;
   }
   @media screen and (min-width: 320px) and (max-width: 767px) {
-    margin-left: 60px;
+    margin: 20px auto;
+    display: block;
   }
 }
