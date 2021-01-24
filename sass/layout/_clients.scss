@@ -13,7 +13,6 @@
   @media screen and (max-width: 768px) {
     width: 170px;
   }
-  
 }
 
 .clients-link-icon {
@@ -61,7 +60,11 @@
     height: 90px;
     margin: 10px;
   }
+  .clients-title {
+    text-align: center;
+  }
 }
+
 @media screen and (min-width: 1200px) {
   .clients-list {
     display: flex;

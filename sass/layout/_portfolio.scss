@@ -93,6 +93,8 @@
   @media screen and (min-width: 320px) and (max-width: 767px) {
     width: 370px;
     height: 404px;
+    display: flex;
+    justify-content: center;
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 354px;
@@ -233,5 +235,11 @@
       width: 370px;
       height: 404px;
     }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .buttons-portfolio {
+    text-align: center;
   }
 }

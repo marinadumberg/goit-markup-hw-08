@@ -30,12 +30,16 @@
   }
 
   .label {
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
     margin: 0;
-    padding: 27px 82px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 14px;

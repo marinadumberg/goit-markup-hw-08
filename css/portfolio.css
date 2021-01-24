@@ -132,7 +132,13 @@ img {
 }
 
 .header .logo {
-  margin-right: 10px;
+  margin-right: 93px;
+}
+
+@media screen and (min-width: 768px) and (max-widt: 1199px) {
+  .header .logo {
+    margin-right: 88px;
+  }
 }
 
 .logo-studio {
@@ -155,7 +161,8 @@ img {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .menu-list-item {
-    margin: 15px auto;
+    margin: auto;
+    margin-top: 40px;
   }
 }
 
@@ -188,8 +195,8 @@ img {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .div-address {
     margin-left: 0;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -414,7 +421,18 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .div-menu {
     margin-top: 15px;
+    margin-right: 84px;
   }
+}
+
+.menu-button:focus .icon-menu,
+.menu-button:focus .icon-menu {
+  fill: #2196f3;
+}
+
+.menu-button:focus .icon-cross,
+.menu-button:focus .icon-cross {
+  fill: #2196f3;
 }
 
 .footer {
@@ -426,8 +444,8 @@ img {
 }
 
 .footer .container {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   justify-content: space-between;
 }
 
@@ -641,6 +659,12 @@ img {
   margin-top: 10px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .sign-us-field {
+    padding-left: 70px;
+  }
+}
+
 .sign-us-btm {
   display: flex;
   width: 200px;
@@ -693,6 +717,13 @@ img {
   .sign-us-email {
     margin: 20px auto;
     display: block;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-wrapper {
+    padding-right: 76px;
+    padding-left: 89px;
   }
 }
 
@@ -793,6 +824,8 @@ img {
   .gallery-list {
     width: 370px;
     height: 404px;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -936,6 +969,12 @@ img {
   .gallery-list .overlay {
     width: 370px;
     height: 404px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .buttons-portfolio {
+    text-align: center;
   }
 }
 
