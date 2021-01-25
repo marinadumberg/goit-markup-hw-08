@@ -22,8 +22,8 @@
 
 .header .logo {
   margin-right: 93px;
-  @media screen and (min-width: 768px) and (max-widt: 1199px) {
-    margin-right: 88px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 45px;
   }
 }
 .logo-studio {
@@ -262,7 +262,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .div-menu {
     margin-top: 15px;
-    margin-right: 84px;
+    margin-right: 30px;
   }
 }
 
